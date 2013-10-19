@@ -1,6 +1,6 @@
 {
   "name": "custom-err",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily create an error with custom properties attached.",
   "main": "index.js",
   "scripts": {

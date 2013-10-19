@@ -14,7 +14,8 @@ function Err(message, properties) {
     throw new Error('message argument missing');
   }
 
-  err = new Error(message);
+  err        = new Error(message);
+  properties = properties || {};
 
   Object.keys(properties).forEach(function(name) {
     err[name] = properties[name];
